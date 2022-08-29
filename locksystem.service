@@ -1,0 +1,11 @@
+[Unit]
+Description = Door lock system
+After = multi-user.target
+
+[Service]
+Type = simple
+Restart = always
+ExecStart = /usr/bin/python /home/pi/server.py
+
+[Install]
+WantedBy = multi-user.target
