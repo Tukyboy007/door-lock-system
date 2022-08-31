@@ -1,5 +1,11 @@
 # door-lock-system
 
+#Bot name && link
+
+Door-locker
+
+http://t.me/locker007_bot
+
 Create Telegram Bot
  
 @BotFather ->> Search on telegram. Create and manage bots.
@@ -29,4 +35,4 @@ $sudo pip install telepot
   $sudo systemctl daemon-reload
   $sudo systemctl enable locksystem.service
   $sudo systemctl start locksystem.service
-
+# 
